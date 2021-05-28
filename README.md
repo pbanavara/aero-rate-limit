@@ -1,5 +1,11 @@
 ### A simple python web app to test Aerospike quotas
 
+#### To run the app
+Use python 3.9 or create a conda environment
+python aerospike-quota.py
+
+* THis will run the app on port 8000 by default
+
 #### Usage
 Run `http://localhost:8000/docs ` to load Starlette documentation for the APIs
 
