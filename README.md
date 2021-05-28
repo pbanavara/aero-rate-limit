@@ -2,7 +2,7 @@
 
 #### To run the app
 Use python 3.9 or create a conda environment
-python aerospike-quota.py
+`python aerospike-quota.py`
 
 * THis will run the app on port 8000 by default
 
