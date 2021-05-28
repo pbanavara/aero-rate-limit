@@ -80,7 +80,7 @@ def write_data(item: Item):
     except exception.QuotaExceeded as qe:
         print("Quota exceeded")
         print(qe)
-        raise HTTPException(status_code=500, detail="Quota exceeded")
+        raise HTTPException(status_code=429, detail="Too many requests")
 
 @app.get("/data")
 def get_data(item: Item):
